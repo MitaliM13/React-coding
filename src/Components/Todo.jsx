@@ -11,28 +11,32 @@ function Todo() {
     const add = (e) => {
         e.preventDefault();
         setData([...data, { ...newTodo, id: data.length + 1 }]);
+        //spreading the remaining data and adding the new todo
         setNewTodo({ title: "", completed: false, description: "" });
+        //resetting the form after adding the new todo
     };
 
     const edit = (id) => {
         const editItem = data.find((todo) => todo.id === id);
+        //finding the todo item to edit
         setNewTodo({ ...editItem });
+        //setting the todo item to the form
     };
 
     const handleUpdate = (e) => {
         e.preventDefault();
         setData(
-            data.map((todo) =>
-                todo.id === newTodo.id
-                    ? { ...todo, title: newTodo.title, description: newTodo.description }
-                    : todo
+            data.map((todo) => //mapping through the data
+                todo.id === newTodo.id //checking if the todo id matches the new todo id
+                    ? { ...todo, title: newTodo.title, description: newTodo.description }//updating the todo
+                    : todo //returning the todo as it is if the id doesn't match
             )
         );
-        setNewTodo({ title: "", completed: false, description: "" });
+        setNewTodo({ title: "", completed: false, description: "" });//resetting the form after updating the todo
     };
 
     const deleteItem = (id) => {
-        setData(data.filter((todo) => todo.id !== id));
+        setData(data.filter((todo) => todo.id !== id));//filtering out the todo item to delete
     };
 
     return (
