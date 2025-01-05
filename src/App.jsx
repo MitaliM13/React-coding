@@ -1,7 +1,10 @@
 // import Navbar from "./Components/Navbar"
 // import Todo from "./Components/Todo"
 // import Modal from "./Components/Modal"
-import Dropdown from "./Components/Dropdown"
+
+import ImageSlider from "./Components/ImageSlider"
+
+// import Dropdown from "./Components/Dropdown"
 function App() {
 
   return (
@@ -9,7 +12,8 @@ function App() {
       {/* <Navbar/> */}
       {/* <Todo/> */}
       {/* <Modal/> */}
-      <Dropdown/>
+      {/* <Dropdown/> */}
+      <ImageSlider/>
     </>
   )
 }
