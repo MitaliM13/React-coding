@@ -2,8 +2,9 @@
 // import Todo from "./Components/Todo"
 // import Modal from "./Components/Modal"
 // import ImageSlider from "./Components/ImageSlider"
+// import DragDrop from "./Components/DragDrop"
 
-import DragDrop from "./Components/DragDrop"
+import TextEditor from "./Components/TextEditor"
 
 // import InfiniteScroll from "./Components/InfiniteScroll"
 
@@ -18,7 +19,8 @@ function App() {
       {/* <Dropdown/> */}
       {/* <ImageSlider/> */}
       {/* <InfiniteScroll/> */}
-      <DragDrop/>
+      {/* <DragDrop/> */}
+      <TextEditor/>
     </>
   )
 }
