@@ -3,10 +3,10 @@
 // import Modal from "./Components/Modal"
 // import ImageSlider from "./Components/ImageSlider"
 // import DragDrop from "./Components/DragDrop"
-
-import TextEditor from "./Components/TextEditor"
-
+// import TextEditor from "./Components/TextEditor"
 // import InfiniteScroll from "./Components/InfiniteScroll"
+
+import FormValidation from "./Components/FormValidation"
 
 // import Dropdown from "./Components/Dropdown"
 function App() {
@@ -20,7 +20,8 @@ function App() {
       {/* <ImageSlider/> */}
       {/* <InfiniteScroll/> */}
       {/* <DragDrop/> */}
-      <TextEditor/>
+      {/* <TextEditor/> */}
+      <FormValidation/>
     </>
   )
 }
