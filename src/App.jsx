@@ -4,11 +4,10 @@
 // import ImageSlider from "./Components/ImageSlider"
 // import DragDrop from "./Components/DragDrop"
 // import TextEditor from "./Components/TextEditor"
-// import InfiniteScroll from "./Components/InfiniteScroll"
-
-import FormValidation from "./Components/FormValidation"
-
+import InfiniteScroll from "./Components/InfiniteScroll"
+// import FormValidation from "./Components/FormValidation"
 // import Dropdown from "./Components/Dropdown"
+
 function App() {
 
   return (
@@ -18,10 +17,10 @@ function App() {
       {/* <Modal/> */}
       {/* <Dropdown/> */}
       {/* <ImageSlider/> */}
-      {/* <InfiniteScroll/> */}
+      <InfiniteScroll/>
       {/* <DragDrop/> */}
       {/* <TextEditor/> */}
-      <FormValidation/>
+      {/* <FormValidation/> */}
     </>
   )
 }
