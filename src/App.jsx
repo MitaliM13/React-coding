@@ -7,8 +7,8 @@
 // import InfiniteScroll from "./Components/InfiniteScroll"
 // import FormValidation from "./Components/FormValidation"
 // import Dropdown from "./Components/Dropdown"
-
-import SearchAutomate from "./Components/SearchAutomate"
+import ImageUpload from "./Components/ImageUpload"
+// import SearchAutomate from "./Components/SearchAutomate"
 
 function App() {
 
@@ -23,7 +23,8 @@ function App() {
       {/* <DragDrop/> */}
       {/* <TextEditor/> */}
       {/* <FormValidation/> */}
-      <SearchAutomate/>
+      {/* <SearchAutomate/> */}
+      <ImageUpload/>
     </>
   )
 }
